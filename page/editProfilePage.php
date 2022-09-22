@@ -46,7 +46,7 @@ include '../component/sidebar.php'
             <div class="control">
                 <div class="select">
                     <select class="form-select" aria-label="Default select example" name="membership" id="membership">
-                        <option value="<?php echo $_SESSION['user']['membership'];?>" selected disabled hidden><?php echo $_SESSION['user']['membership'];?></option>
+                        <option value="<?php echo $_SESSION['user']['membership'];?>" selected hidden><?php echo $_SESSION['user']['membership'];?></option>
                         <option value="Reguler">Reguler</option>
                         <option value="Platinum">Platinum</option>
                         <option value="Gold">Gold</option>
